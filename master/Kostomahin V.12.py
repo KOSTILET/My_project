@@ -6,11 +6,6 @@ def fill_array(size, min_value, max_value):
     array = [random.randint(min_value, max_value) for _ in range(size)]
     return array
 
-# Функция для вывода массива на экран
-def print_array(array):
-    # Преобразуем массив в строку и выводим
-    array_str = ', '.join(map(str, array))
-    print("Массив:", array_str)
 
 # Пример использования функций
 size = 10  # Размер массива
